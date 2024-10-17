@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const ratingSchema = new mongoose.Schema({ // modèle pour les notes des utilisateurs 
+const ratingSchema = mongoose.Schema({ // modèle pour les notes des utilisateurs 
   userId: {
     type: String,
     required: true
