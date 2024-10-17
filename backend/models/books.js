@@ -11,7 +11,7 @@ const ratingSchema = mongoose.Schema({ // modèle pour les notes des utilisateur
   }
 });
 
-const bookSchema = new mongoose.Schema({
+const bookSchema = mongoose.Schema({
   userId: {
     type: String,
     required: true
